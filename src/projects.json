@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "name": "Lavle",
+      "title": "Lavle",
+      "image": "../images/400lavle.jpg",
+      "category": "Web",
+      "description": "website"
+    },
+
+    {
+        "id": 2,
+        "name": "FlaDui",
+        "title": "Florida DUI",
+        "image": "/images/400FlaDui.jpg",
+        "category": "Web",
+        "description": "website"
+      },
+      
+      {
+      "id": 3,
+      "name": "Fresh4Less",
+      "title": "Fresh for Less",
+      "image": "/images/400Fresh.jpg",
+      "category": "Graphic",
+      "description": "logo and graphics for Organic Coop"
+    },
+
+         
+    {
+      "id": 4,
+      "name": "Longwood",
+      "title": "Longwood",
+      "image": "/images/400longwood.jpg",
+      "category": "Graphic",
+      "description": "graphics for advertising traditional style new construction"
+    },
+
+         
+    {
+      "id": 5,
+      "name": "PalermoVista",
+      "title": "Palermo Vista",
+      "image": "/images/400palermo.jpg",
+      "category": "Graphic",
+      "description": "logo and design for brochure, website, and signage"
+    }
+  ]
+  
