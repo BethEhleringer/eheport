@@ -4,8 +4,8 @@ const About = () => (
   <div>
     <Container>
     <Row>
-      <Col size="md-4"></Col>
-      <Col size="md-4"> 
+      
+      <Col size="xs-12"> 
     <h1>About Page</h1>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
@@ -15,7 +15,7 @@ const About = () => (
       diam, sit amet facilisis lectus blandit at.
     </p>
     </Col>
-    <Col size="md-4"></Col>
+    
     </Row>
 
     </Container>

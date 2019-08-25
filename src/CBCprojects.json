@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "name": "reportTracker",
+      "title": "Report Tracker",
+      "image": "../../images/CBCproj3.jpg",
+      "link": "#",
+      "codeLink": "#",
+      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "role": "Duis aute irure dolor.",
+      "skills": "lorem, ipsum, dolor, sit, amet",
+      "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+
+    },
+
+    {
+        "id": 2,
+        "name": "SpacexLaunchPad",
+        "title": "Spacex Launch Pad",
+        "image": "../images/CBCproj1.jpg",
+        "link": "https://spacex-launch-pad.firebaseapp.com/",
+        "codeLink": "#",
+        "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "role": "Duis aute irure dolor.",
+        "skills": "lorem, ipsum, dolor, sit, amet",
+        "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+  
+      },
+
+      {
+        "id": 3,
+        "name": "Project 2",
+        "title": "Project 2",
+        "image": "../images/CBCproj2.jpg",
+        "link": "#",
+        "codeLink": "#",
+        "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "role": "Duis aute irure dolor.",
+        "skills": "lorem, ipsum, dolor, sit, amet",
+        "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+        "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+  
+      }
+  ]
+  

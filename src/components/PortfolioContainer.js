@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Col, Row, Container } from "./Grid";
 import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -31,6 +32,10 @@ class Portfolio extends Component {
 
   render() {
     return (
+      <Container>
+      <Row>
+        <Col size="md-1"></Col>
+        <Col size="md-10">
       <div>
         <NavTabs
           currentPage={this.state.currentPage}
@@ -38,6 +43,9 @@ class Portfolio extends Component {
         />
         {this.renderPage()}
       </div>
+      </Col>
+      <Col size="md-1"></Col>
+      </Row></Container>
     );
   }
 }

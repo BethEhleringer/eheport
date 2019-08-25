@@ -22,16 +22,9 @@ render() {
     <Wrapper>
     <Container>
       <Title>Work</Title>
-      <Row><Col size="lg-3 md-2 xs-1"></Col>
-        <Col size="lg-6 md-8 xs-10">
-        {chosenCat = "Web"}
-        {console.log ("chosenCat = web")}</Col>
-        <Col size="lg-3 md-2 xs-1"></Col>
-        <button onClick={() => (chosenCat = "Graphic")}
-        >Print
-        </button>
-      </Row>
-     <Row>
+
+     <Row><Col size="lg-6 md-8 xs-10">
+       {chosenCat = "Web"}
       {this.state.projects.filter(project => project.category === chosenCat).map(project =>  (
           <ProjCard
             id={project.id}
@@ -43,6 +36,8 @@ render() {
                         
           />
         ))}
+        </Col>
+        <Col size="lg-3 md-2 xs-1"></Col>
         </Row>
         </Container>
     </Wrapper>
