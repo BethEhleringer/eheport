@@ -35,8 +35,7 @@ render() {
             skills={project.skills}
             challenges={project.challenges}
             takeaways={project.takeaways}
-
-                        
+                      
           />
         ))}
         </Col>
