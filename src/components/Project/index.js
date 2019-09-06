@@ -9,22 +9,25 @@ function Project(props) {
         <Container>
 
 <Row>
-  <Col size="lg-6 md-6 sm-12 xs-12">
+  <Col size="lg-4 md-6 sm-12 xs-12">
 
       <div className="img-container">
         <img alt={props.title} src={props.image} />
       </div>
       <div className="content">
-        <h6>{props.title}</h6>
-          <ul><li><a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Deployed site</a></li></ul>
-          <ul><li><a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Git-Hub Repository</a></li></ul>
+                <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Deployed site</a></li>
+        <li className="nav-item">
+          <a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Git-Hub Repository</a></li></ul>
 
                   
       </div>
       </Col>
-      <Col size="lg-6 md-6 sm-12 xs-12">
+      <Col size="lg-8 md-6 sm-12 xs-12">
 
       <div className="content">
+        <h5>{props.title}</h5>
         <ul>
           <li>
             Objective: {props.objective}

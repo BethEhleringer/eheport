@@ -20,8 +20,8 @@ render() {
     <Container>
 
      <Row>
-       <Col size="lg-1 md-1 sm-12 xs-12"></Col>
-     <Col size="lg-10 md-10 sm-12 xs-12">
+      
+     <Col size="xs-12">
       {this.state.CBCprojects.map(project =>  (
           <Project
             id={project.id}
@@ -39,7 +39,7 @@ render() {
           />
         ))}
         </Col>
-        <Col size="lg-1 md-1 xs-1"></Col>
+        
         </Row>
         </Container>
     </Wrapper>
