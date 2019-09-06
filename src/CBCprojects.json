@@ -3,14 +3,14 @@
       "id": 1,
       "name": "reportTracker",
       "title": "Report Tracker",
-      "image": "../../images/CBCproj3.jpg",
-      "link": "#",
-      "codeLink": "#",
-      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-      "role": "Duis aute irure dolor.",
-      "skills": "lorem, ipsum, dolor, sit, amet",
-      "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+      "image": "/images/CBCproj3.jpg",
+      "link": "https://young-bastion-93276.herokuapp.com/",
+      "codeLink": "https://github.com/BethEhleringer/globalreporttracker",
+      "objective": "Members of an organization log in and submit reports.",
+      "role": "Everything. Full stack (database, routing, apis, front-end, logo",
+      "skills": "sequelize, node",
+      "challenges": "Passport authentication. I changed this from a React - Mongo app to a React - Sequelize app, and then I realized that I just wanted to get the routing and database to work, so I simplified it to an HTML5 site.",
+      "takeaways": "I will build this again in React and then React Native. "
 
     },
 
@@ -18,14 +18,14 @@
         "id": 2,
         "name": "SpacexLaunchPad",
         "title": "Spacex Launch Pad",
-        "image": "../images/CBCproj1.jpg",
-        "link": "https://spacex-launch-pad.firebaseapp.com/",
-        "codeLink": "#",
-        "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "role": "Duis aute irure dolor.",
-        "skills": "lorem, ipsum, dolor, sit, amet",
-        "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-        "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+        "image": "/images/CBCproj1.jpg",
+         "link": "https://spacex-launch-pad.firebaseapp.com/",
+        "codeLink": "https://github.com/ST3AMMACH1N3/gray-project-one",
+        "objective": "Alerts users to times of future Spacex launches.",
+        "role": "Group project with Ben Houston and Dave Hiller. I did front-end and the API for future launches.",
+        "skills": "AJAX, HTML5, CSS, Javascript, Bootstrap 4",
+        "challenges": "When we did this project, I was not yet comfortable with Git but managed to use it. ",
+        "takeaways": "It's cool to work on a project that you can actually use! "
   
       },
 
@@ -33,14 +33,14 @@
         "id": 3,
         "name": "Project 2",
         "title": "Project 2",
-        "image": "../images/CBCproj2.jpg",
-        "link": "#",
-        "codeLink": "#",
-        "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "role": "Duis aute irure dolor.",
-        "skills": "lorem, ipsum, dolor, sit, amet",
-        "challenges": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-        "takeaways": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
+        "image": "/images/CBCproj2.jpg",
+        "link": "https://dev4data.herokuapp.com/",
+        "codeLink": "https://github.com/mrc1234/Project_2-dod",
+        "objective": "Website that gathers data from users",
+        "role": "Team: Jianhong Weng, Hitomi Barnes, Max Rosen, Elizabeth Ehleringer. My role was Front-end and html routing. Jianhong Weng did the database and API routing.",
+        "skills": "Routing, Javascript, HTML5, CSS, Bootstrap 4, Git",
+        "challenges": "My biggest challenge was learning to write code for routing.",
+        "takeaways": "I'm redoing this with different content."
   
       }
   ]

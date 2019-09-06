@@ -25,10 +25,17 @@ render() {
       {this.state.CBCprojects.map(project =>  (
           <Project
             id={project.id}
+            name={project.name}
             title={project.title}
             image={project.image}
             objective={project.objective}
             role={project.role}
+            link={project.link}
+            codeLink={project.codeLink}
+            skills={project.skills}
+            challenges={project.challenges}
+            takeaways={project.takeaways}
+
                         
           />
         ))}

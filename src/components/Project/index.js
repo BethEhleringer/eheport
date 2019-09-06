@@ -14,25 +14,32 @@ function Project(props) {
       <div className="img-container">
         <img alt={props.title} src={props.image} />
       </div>
+      <div className="content">
+        <h6>{props.title}</h6>
+          <ul><li><a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Deployed site</a></li></ul>
+          <ul><li><a href={props.link} target="_blank" rel="noopener roreferrer nofollow">Git-Hub Repository</a></li></ul>
+
+                  
+      </div>
       </Col>
       <Col size="lg-6 md-6 sm-12 xs-12">
 
       <div className="content">
         <ul>
           <li>
-            {props.objective}
+            Objective: {props.objective}
           </li>
           <li>
-            {props.role}
+            Role: {props.role}
           </li>
           <li>
-            {props.skills}
+            Skills: {props.skills}
           </li>
           <li>
-            {props.challenges}
+            Challenges: {props.challenges}
           </li>
           <li>
-            {props.takeways}
+            Takeaways: {props.takeaways}
           </li>
 
         </ul>

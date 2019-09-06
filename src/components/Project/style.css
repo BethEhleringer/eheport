@@ -4,17 +4,19 @@
     margin: 1rem;
     position: relative;
     width: 100%;
+    height: auto;
     text-align: left;
   }
   
-  .card > .img-container {
-    width: 600px;
-    height:400px;
-    text-align: left;
+  .img-container {
+    width: 100%;
+ 
+        text-align: left;
     background:#6CADDC;
   }
-  .card > .img-container > img {
+  .img-container > img {
     width: 100%
+    
   }
   
   .card > .content {
