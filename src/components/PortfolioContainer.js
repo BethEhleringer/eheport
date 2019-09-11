@@ -4,8 +4,8 @@ import NavTabs from "./NavTabs";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
-
 import Work from "./pages/Work";
+import Coding from "./pages/Coding";
 
 
 class Portfolio extends Component {
@@ -24,7 +24,8 @@ class Portfolio extends Component {
       return <About />;
     } else if (this.state.currentPage === "Blog") {
       return <Blog />;
-    
+    } else if (this.state.currentPage === "Coding") {
+      return <Coding />;
     } else {
       return <Work />;
     }
@@ -34,8 +35,8 @@ class Portfolio extends Component {
     return (
       <Container>
       <Row>
-        <Col size="md-1"></Col>
-        <Col size="md-10">
+        
+        <Col size="xs-12">
       <div>
         <NavTabs
           currentPage={this.state.currentPage}
@@ -44,7 +45,7 @@ class Portfolio extends Component {
         {this.renderPage()}
       </div>
       </Col>
-      <Col size="md-1"></Col>
+      
       </Row></Container>
     );
   }

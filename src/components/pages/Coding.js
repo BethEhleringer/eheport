@@ -7,11 +7,12 @@ import ProjCard from "../ProjCard";
 import projects from "../../projects.json";
 import Modal from "../Modal";
 import Prtf from "../Prtf";
+import Accordian from "../Accordian";
 // NEED TO HAVE BUTTONS TO SELECT VALUE FOR var abcdefg
 var chosenCat
 //var cat;
 
-class Blog extends Component {
+class Coding extends Component {
   // Setting this.state.projects to the projects json array
   state = {
     projects
@@ -22,32 +23,21 @@ render() {
   return (
     <Wrapper>
     <Container>
-      <Title>Work</Title>
+      <Title>Coding Projects</Title>
 
-     <Row><Col size="lg-6 md-8 xs-10">
-       {chosenCat = "Web"}
-      {this.state.projects.filter(project => project.category === chosenCat).map(project =>  (
-          <ProjCard
-            id={project.id}
-            name={project.name}
-            image={project.image}
-            description={project.description}
-            category={project.category}
-            title={project.title}
-                        
-          />
-        ))}
-
+     <Row><Col size="lg-12 md-12 xs-11">
+      
+<Accordian></Accordian>
 
         </Col>
-        <Col size="lg-3 md-2 xs-1"></Col>
+        
         </Row>
         </Container>
     </Wrapper>
   );
 }
 }
-export default Blog;
+export default Coding;
 
 /*const Blog = () => (
   <div>

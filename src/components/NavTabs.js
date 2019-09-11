@@ -40,6 +40,16 @@ function NavTabs(props) {
           Work
         </a>
       </li>
+
+      <li className="nav-item">
+        <a
+          href="#coding"
+          onClick={() => props.handlePageChange("Coding")}
+          className={props.currentPage === "Coding" ? "nav-link active" : "nav-link"}
+        >
+          Coding
+        </a>
+      </li>
       
     </ul>
   );
