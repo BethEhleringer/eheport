@@ -23,14 +23,16 @@ render() {
   return (
     <Wrapper>
     <Container>
-      <Title>Coding Projects</Title>
+      <Title>Coding</Title>
 
-     <Row><Col size="lg-12 md-12 xs-11">
+     <Row>
+       <Col size="lg-2 md-1 sm-12 xs-12"></Col>
+       <Col size="lg-8 md-10 sm-12 xs-12">
       
 <Accordian></Accordian>
 
         </Col>
-        
+        <Col size="lg-2 md-1 sm-12 xs-12"></Col>
         </Row>
         </Container>
     </Wrapper>
@@ -38,14 +40,3 @@ render() {
 }
 }
 export default Coding;
-
-/*const Blog = () => (
-  <div>
-    <h1>Work</h1>
-    <p>
-      <Prtf></Prtf>
-          </p>
-  </div>
-);
-
-export default Blog; */

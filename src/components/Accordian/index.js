@@ -29,13 +29,13 @@ class Accordian extends React.Component {
       <Fragment>
                 {data2.map(({ title, image, link, codeLink, objective, role, skills, challenges, takeaways }, i) => (
           <Fragment>
-            <h2
+            <h3
               className="title"
               onClick={() => this.setState({ open: open === i ? false : i })}
             >
               {open === i ? minusIcon : plusIcon }
               {" "}{title}
-            </h2>
+            </h3>
             <Content className="content" pose={open === i ? 'open' : 'closed'}>
               <div className="content-wrapper">
               <Row>
