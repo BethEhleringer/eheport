@@ -1,10 +1,8 @@
 
-import React, { useState, useReducer, Component, Fragment }  from "react";
-import ReactDOM from 'react-dom';
-import posed from 'react-pose';
+import React, { useState, useReducer, Component }  from "react";
+
 import ProjCard from "../ProjCard";
 import projects from "../../projects.json";
-import { Col, Row, Container } from "../Grid";
 
 
 const filterReducer = (state, action) => {
@@ -49,10 +47,6 @@ const Blog = () => {
 
     return (
       <div>
-        <Container><Row><Col size="xs-12">
-          <h1>BlahB</h1>
-          <p>Loremsldkfasl fjklskdf;jaslk jfdjkafds</p></Col></Row></Container>
-      <div>
         
         <div>
           <button type="button" onClick={handleShowAll}>
@@ -65,7 +59,7 @@ const Blog = () => {
             Show Graphic
           </button>
         </div>
-        </div>
+   
    
 {filteredProjects.map(project => (
   <ProjCard

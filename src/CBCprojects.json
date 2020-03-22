@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "category": "graphic",
     "name": "Portfolio",
     "title": "New Portfolio",
     "image": "/images/CBCport.jpg",
@@ -16,6 +17,7 @@
 
 {
       "id": 2,
+      "category": "coding",
       "name": "reportTracker",
       "title": "Report Tracker",
       "image": "/images/CBCproj3.jpg",
@@ -31,6 +33,7 @@
 
     {
         "id": 3,
+        "category": "coding",
         "name": "SpacexLaunchPad",
         "title": "Spacex Launch Pad",
         "image": "/images/CBCproj1.jpg",
@@ -46,6 +49,7 @@
 
       {
         "id": 4,
+        "category": "coding",
         "name": "Project 2",
         "title": "Project 2",
         "image": "/images/CBCproj2.jpg",

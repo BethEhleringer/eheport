@@ -1,7 +1,7 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 //import React, { Fragment } from 'react';
-import ReactDOM from 'react-dom';
-import Grid, {Container, Row, Col} from "../Grid";
+
+import Grid, {Row, Col} from "../Grid";
 
 import posed from 'react-pose';
 import data2 from '../../data2';

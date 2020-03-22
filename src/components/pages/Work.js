@@ -3,6 +3,7 @@ import React, { Component }  from "react";
 import Grid, {Container, Row, Col} from "../Grid";
 import Wrapper from "../Wrapper";
 import Project from "../Project";
+import Test from "../Test";
 import CBCprojects from "../../CBCprojects.json";
 // NEED TO HAVE BUTTONS TO SELECT VALUE FOR var abcdefg
 
@@ -18,7 +19,7 @@ render() {
   return (
     <Wrapper>
     <Container>
-
+    <Test></Test>
      <Row>
       
      <Col size="xs-12">

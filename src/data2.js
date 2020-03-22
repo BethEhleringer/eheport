@@ -1,6 +1,7 @@
 export default [
     {
         id: 1,
+        category: "Web",
         name: "Portfolio",
         title: "New Portfolio",
         image: "/images/CBCport.jpg",
@@ -16,6 +17,7 @@ export default [
     
     {
           id: 2,
+          category: "Graphic",
           name: "reportTracker",
           title: "Report Tracker",
           image: "/images/CBCproj3.jpg",
@@ -31,6 +33,7 @@ export default [
     
         {
             id: 3,
+            category: "Web",
             name: "SpacexLaunchPad",
             title: "Spacex Launch Pad",
             image: "/images/CBCproj1.jpg",
@@ -46,6 +49,7 @@ export default [
     
           {
             id: 4,
+            category: "Graphic",
             name: "Project 2",
             title: "Project 2",
             image: "/images/CBCproj2.jpg",
