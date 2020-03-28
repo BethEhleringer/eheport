@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, Container } from "../Grid";
-import OldStuff from "../OldStuff";
+import {Xyzpdq} ;
 const About = () => (
   <div>
     <Container>
@@ -8,7 +8,6 @@ const About = () => (
       
       <Col size="xs-12"> 
     <h1>About Page</h1>
-    <OldStuff></OldStuff>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
       ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam

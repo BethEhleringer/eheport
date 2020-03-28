@@ -1,5 +1,5 @@
-
 import React, { useState, useReducer, Component, Fragment }  from "react";
+import "./style.css";
 import { Col, Row, Container } from "../Grid";
 import Wrapper from "../Wrapper";
 import Title from "../Title";import ReactDOM from 'react-dom';
@@ -22,7 +22,7 @@ const filterReducer = (state, action) => {
   }
 };
 
-const Blog = () => {
+function OldStuff (){
   
   const [filter, dispatchFilter] = useReducer(filterReducer, 'ALL');
   //const [project, setProject] = useState(project);
@@ -102,6 +102,6 @@ const Blog = () => {
 
   }
   
-export default Blog;
+export default OldStuff;
 
 

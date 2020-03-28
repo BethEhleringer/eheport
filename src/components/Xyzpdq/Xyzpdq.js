@@ -3,7 +3,7 @@ import React, { useState, useReducer, Component, Fragment }  from "react";
 import { Col, Row, Container } from "../Grid";
 import Wrapper from "../Wrapper";
 import Title from "../Title";import ReactDOM from 'react-dom';
-
+import posed from 'react-pose';
 import ProjCard from "../ProjCard";
 import projects from "../../projects.json";
 
@@ -57,11 +57,11 @@ const Blog = () => {
           <Row>
        
        <Col size="xs-12">
-     
+      <div>
         
           <h1>BlahB</h1>
           <p>Loremsldkfasl fjklskdf;jaslk jfdjkafds</p>
-                
+                <div>
           <button type="button" onClick={handleShowAll}>
             Show All
           </button>
@@ -71,7 +71,7 @@ const Blog = () => {
           <button type="button" onClick={handleShowGraphic}>
             Show Graphic
           </button>
-        
+        </div>
         
      
    
@@ -88,7 +88,7 @@ const Blog = () => {
 )
 
 )};
-      
+      </div>
 </Col>
 
         </Row>
